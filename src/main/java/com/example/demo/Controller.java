@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/message")
     public ResponseEntity<String> message(){
-        return new ResponseEntity<>("Hello from Bijay", HttpStatus.OK);
+        return new ResponseEntity<>("Hello from Bijay, Bangalore", HttpStatus.OK);
     }
 }
